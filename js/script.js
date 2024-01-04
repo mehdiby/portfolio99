@@ -65,3 +65,27 @@ let myDate = document.querySelector("#datee");
 
 const yes = new Date().getFullYear();
 myDate.innerHTML = yes;
+
+// clickable cards
+
+document.getElementById('Credit').addEventListener('click', function() {
+  // Redirect to the GitHub link
+  window.location.href = 'https://github.com/mehdiby/Credit-Risk-Analysis';
+});
+
+document.getElementById('Fino').addEventListener('click', function() {
+  // Redirect to the GitHub link
+  window.location.href = 'https://github.com/mehdiby/Financial-chatbot';
+});
+
+document.getElementById('Dam').addEventListener('click', function() {
+  // Redirect to the GitHub link
+  window.location.href = 'https://github.com/mehdiby/Water-Level-Prediction-in-Tunisian-Dams';
+});
+
+document.getElementById('Shazam').addEventListener('click', function() {
+  // Redirect to the GitHub link
+  window.location.href = 'https://github.com/mehdiby/mini-shazam';
+});
+
+
